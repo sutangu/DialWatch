@@ -1,0 +1,15 @@
+{
+  "name": "jsclock",
+  "version": "1.0.0",
+  "description": "Dial watch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watch",
+    "clock"
+  ],
+  "author": "sutangu",
+  "license": "ISC"
+}
