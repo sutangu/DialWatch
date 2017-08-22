@@ -14,18 +14,19 @@ body {
     flex:1;
     min-height: 100vh;
     align-items: center;
+    justify-content: center;
 }
 .clock {
     width: 30rem;
     height: 30rem;
-    border:20px solid white;
+    border:20px solid #5a70de;
     border-radius:50%;
     margin:50px auto;
     position: relative;
     padding:2rem;
     box-shadow:
             0 0 0 4px rgba(0,0,0,0.1),
-            inset 0 0 0 3px #EFEFEF,
+            inset 0 0 0 3px #f95b5b,
             inset 0 0 10px black,
             0 0 10px rgba(0,0,0,0.2);
 }
@@ -48,7 +49,7 @@ body {
 }
 
 .second-hand {
-    background-color: aqua;
+    background-color: #fdfdfd;
     height: 2px;
 }
 
