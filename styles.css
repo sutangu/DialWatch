@@ -1,47 +1,50 @@
 html {
-    background: -moz-linear-gradient(45deg, rgba(102,30,154,1) 0%, rgba(177,126,232,0) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(102,30,154,1) 0%,rgba(177,126,232,0) 100%);
-    background: linear-gradient(45deg, rgba(102,30,154,1) 0%,rgba(177,126,232,0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#661e9a', endColorstr='#00b17ee8',GradientType=1 );
-    font-family:'helvetica neue';
+    background: -moz-linear-gradient(45deg, rgba(102, 30, 154, 1) 0%, rgba(177, 126, 232, 0) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(102, 30, 154, 1) 0%, rgba(177, 126, 232, 0) 100%);
+    background: linear-gradient(45deg, rgba(102, 30, 154, 1) 0%, rgba(177, 126, 232, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#661e9a', endColorstr='#00b17ee8', GradientType=1);
+    font-family: 'helvetica neue', sans-serif;
     text-align: center;
     font-size: 10px;
 }
+
 body {
     margin: 0;
     font-size: 2rem;
-    display:flex;
-    flex:1;
+    display: flex;
+    flex: 1;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
 }
+
 .clock {
     width: 30rem;
     height: 30rem;
-    border:20px solid #5a70de;
-    border-radius:50%;
-    margin:50px auto;
+    border: 20px solid #5a70de;
+    border-radius: 50%;
+    margin: 50px auto;
     position: relative;
-    padding:2rem;
-    box-shadow:
-            0 0 0 4px rgba(0,0,0,0.1),
-            inset 0 0 0 3px #f95b5b,
-            inset 0 0 10px black,
-            0 0 10px rgba(0,0,0,0.2);
+    padding: 2rem;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1),
+    inset 0 0 0 3px #f95b5b,
+    inset 0 0 10px black,
+    0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 .clock-face {
     position: relative;
     width: 100%;
     height: 100%;
     transform: translateY(-3px);
 }
+
 .hand {
-    width:50%;
-    height:6px;
-    background:black;
+    width: 50%;
+    height: 10px;
+    background: black;
     position: absolute;
-    top:50%;
+    top: 50%;
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all 0.05s;
@@ -55,7 +58,7 @@ body {
 
 .min-hand {
     background-color: brown;
-    height: 4px;
+    height: 6px;
 }
 
 .hour-hand {
