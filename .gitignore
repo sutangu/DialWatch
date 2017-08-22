@@ -48,7 +48,7 @@ Temporary Items
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
-
+*xml
 # Sensitive or high-churn files:
 .idea/**/dataSources/
 .idea/**/dataSources.ids
@@ -105,3 +105,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+/dist
